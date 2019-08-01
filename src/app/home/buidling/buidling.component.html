@@ -1,0 +1,22 @@
+<div class='container'>
+    <p class='heading'>Building</p>
+    <div style="display: flex;"> 
+            <img class='image' src="../../../assets/images/building.png"/>
+            <div style="margin-left: 20px;">
+               <p class="building-name">Dwight Oliver Holmes Hall</p>
+               <hr class="title-line">
+               <p class ="building-name sub-text">Tracking</p>
+            </div>
+    </div>
+    <div class='subContainer'>
+        <ul *ngFor="let residences of residentials">
+            <li>
+                <button class="building-button">
+                   <span class="active"></span>
+                    {{residences}}
+                </button>
+            </li>
+    </ul>
+    </div>
+    <hr style="width: 85%; float: center; background-color:#0258FF; border:none;height:.5px">
+</div>

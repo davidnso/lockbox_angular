@@ -1,0 +1,18 @@
+.container{
+    margin-left: 80px;
+    height: 500px;
+    padding: 5px;
+    min-height: 500px;
+    border:1px solid #73AAF9;
+    background-color: #FBFBFB;
+    width: 800px;
+}
+//TODO: create vars file with global styles and mixins
+.heading{
+    margin-top:1px;
+    font-family:sans-serif;
+    margin-left:15px;
+    font-size:12px;
+    letter-spacing: .15em;
+    color:#5A5555
+}

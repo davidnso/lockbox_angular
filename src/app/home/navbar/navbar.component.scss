@@ -1,0 +1,41 @@
+.container{ 
+    min-height: 100%;
+    float: left;
+    margin-top:0;
+    background-color: #73AAF9;
+    left: -200px;
+    transition: .3s;
+    position: fixed;
+    width: 250px;
+}
+.container:hover{
+    left:0;
+}
+.content {
+    width: 90%;
+    height: 50%;
+    background-color: transparent;
+    align-self: center;
+    padding-left: 60px;
+    align-content: flex-start;
+    text-align: left;
+    margin-top: 50px;
+}
+.selection{
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+hr{
+   margin-top: 40px;
+   width: 150px; 
+   height: 1px; 
+   border: none;
+   align-self: center;
+   background-color: white;
+}
+a{
+    text-decoration: none;
+}
